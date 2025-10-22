@@ -1,0 +1,998 @@
+/* Tablet */
+@media (max-width: 1078px) {
+
+  header {
+    padding: 1rem 3rem;
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      .logo {
+        width: 40%;
+        height: 35%;
+      }
+
+      nav {
+        width: 100%;
+        height: 60%;
+        .nav-list {
+          width: 55%;
+          justify-content: space-between;
+          li {
+            a {
+              font-size: 1.1rem;
+            }
+          }
+        }
+        .header-button {
+          width: 40%;
+          .header-btn {
+            padding: 0.9rem 1.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .home {
+    height: auto;
+    padding: 1rem 3rem;
+    flex-direction: column;
+    .home-content {
+      width: 100%;
+      height: 60%;
+      align-items: center;
+      text-align: center;
+      .home-text {
+        height: 60%;
+        align-items: center;
+        h1 {
+          margin-bottom: 10px;
+          font-size: 2.5rem;
+          width: 100%;
+        }
+        p {
+          width: 100%;
+          margin-top: 10px;
+          font-size: 1.2rem;
+        }
+      }
+      .home-buttons {
+        width: 100%;
+        height: 30%;
+        justify-content: space-around;
+        margin-top: 2rem;
+        .home-btn {
+          width: 30%;
+          padding: 1rem 1.5rem;
+          .btn-text {
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+    .home-image {
+      width: 40%;
+      margin-top: 2rem;
+      .home-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .dados {
+    height: auto;
+    .dados-container {
+      .dados-content {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .about {
+    height: auto;
+    padding: 2rem 3rem;
+    .about-text {
+      padding: 0;
+      text-align: center;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    .about-content {
+      padding: 0;
+      flex-direction: column;
+      height: auto;
+      .about-card {
+        width: 100%;
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+        .about-title {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      p2 {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .products {
+    height: auto;
+    padding: 2rem 3rem;
+    .products-text {
+      padding: 0 1rem;
+      text-align: center;
+      width: 100%;
+      height: 20%;
+      margin-bottom: 2rem;
+    }
+    .products-content {
+      flex-direction: column;
+      height: 80%;
+      width: 90%;
+      .product-card {
+        width: 70%;
+        height: 85%;
+        margin-bottom: 2rem;
+        .product-info {
+          padding: 1.5rem 0;
+          h4 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+          }
+          p2 {
+            font-size: 1.2rem;
+            width: 80%;
+            margin-bottom: 10px;
+          }
+          .card-btn {
+            margin: 1rem 0;
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    height: auto;
+    padding: 2rem 3rem;
+    .feedback-text {
+      margin-bottom: 1rem;
+    }
+
+    .feedback-content {
+      flex-direction: column;
+      margin-top: 1rem;
+      .feedback-card {
+        width: 100%;
+        margin-bottom: 2rem;
+        .stars {
+          margin-bottom: 1rem;
+        }
+        p { 
+          width: 100%;
+          margin: 1rem 0;
+        }
+        .feedback-user {
+          width: 30%;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+  .call {
+    height: auto;
+    padding: 2rem 1rem;
+    .call-text {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      h2 {
+        font-size: 2.2rem;
+      }
+      h3 {
+        font-size: 1.3rem;
+        width: 90%;
+      }
+    }
+    .call-buttons {
+      width: 70%;
+      margin-top: 1rem;
+      .call-btn {
+        width: 42%;
+      }
+      .call-btn-outline {
+        width: 40%;
+      }
+    }
+  }
+
+  footer {
+    height: auto;
+    padding: 1.5rem;
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      .footer-logo {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        a {
+
+        }
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+      .footer-content {
+        width: 100%;
+        height: 70%;
+        .links-navigation {
+          width: 30%;
+          align-items: left;
+          text-align: left;
+          ul {
+            align-items: start;
+            li {
+              margin: 0.4rem 0;
+            }
+            .social {
+              width: 55%;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-copyright {
+      padding-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+/* Mobile (Celulares) */
+@media (max-width: 768px) {
+    header {
+    padding: 1rem;
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      .logo {
+        width: 45%;
+        height: 30%;
+      }
+
+      nav {
+        width: 100%;
+        height: 60%;
+        .nav-list {
+          width: 60%;
+          li {
+            a {
+              font-size: 14px;
+              &:hover {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+        .header-button {
+          width: 32%;
+          .header-btn {
+            width: 100%;
+            height: 70%;
+            padding: 0 0.2rem;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .home {
+    height: auto;
+    padding: 0.8rem;
+    flex-direction: column;
+    .home-content {
+      width: 100%;
+      height: 60%;
+      align-items: center;
+      text-align: center;
+      .home-text {
+        height: 60%;
+        align-items: center;
+        h1 {
+          margin-bottom: 10px;
+          font-size: 2.2rem;
+          width: 100%;
+        }
+        p {
+          width: 100%;
+          margin-top: 5px;
+          font-size: 13px;
+        }
+      }
+      .home-buttons {
+        width: 100%;
+        height: 30%;
+        justify-content: space-around;
+        margin-top: 2rem;
+        .home-btn {
+          width: 40%;
+          padding: 0.7rem 0.6rem;
+          .btn-text {
+            font-size: 14px;
+          }
+          .btn-img {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .home-image {
+      width: 40%;
+      margin-top: 2rem;
+      .home-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .dados {
+    height: auto;
+    padding: 1rem;
+    .dados-container {
+      width: 100%;
+      .dados-content {
+        h2 {
+          font-size: 1.5rem;
+        }
+        p2 {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .about {
+    height: auto;
+    padding: 1.5rem 1rem;
+    .about-text {
+      padding: 0;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      margin-bottom: 2rem;
+      h2 {
+        font-size: 1.9rem;
+        margin-bottom: 5px;
+      }
+      h3 {
+        font-size: 1rem;
+        margin: 5px 0;
+      }
+    }
+    .about-content {
+      padding: 0;
+      flex-direction: column;
+      height: auto;
+      .about-card {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        margin-bottom: 2rem;
+        .about-title {
+          width: 100%;
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      p2 {
+        margin: 10px 0;
+      }
+
+      .card-steps {
+        width: 100%;
+        ol {
+          li {
+            width: 100%;
+            margin: 0.5rem 0;
+            padding-right: 0;
+            span {
+              width: 25px;
+              height: 25px;
+              padding: 4px;
+              font-size: 12px;
+              margin-right: 5px;
+            }
+
+            .step-text {
+              width: 100%;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .products {
+    height: auto;
+    padding: 3rem 1rem;
+    .products-text {
+      padding: 0 1rem;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 20%;
+      margin-bottom: 2rem;
+      h2 {
+        font-size: 1.9rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+        width: 90%;
+      }
+    }
+    .products-content {
+      flex-direction: column;
+      height: 80%;
+      width: 90%;
+      .product-card {
+        width: 85%;
+        height: 70%;
+        margin-bottom: 2.5rem;
+        .product-info {
+          padding: 1rem 0;
+          h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+          }
+          p2 {
+            font-size: 1.1rem;
+            width: 80%;
+            margin-bottom: 5px;
+          }
+          .card-btn {
+            margin: 1rem 0;
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    height: auto;
+    padding: 2rem 1rem;
+    .feedback-text {
+      width: 100%;
+      margin-bottom: 1rem;
+      h2 {
+        width: 100%;
+        font-size: 1.9rem;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
+
+    .feedback-content {
+      width: 90%;
+      flex-direction: column;
+      margin-top: 1rem;
+      .feedback-card {
+        width: 100%;
+        margin-bottom: 2rem;
+        .stars {
+          margin-bottom: 1rem;
+        }
+        p { 
+          width: 100%;
+          margin: 1rem 0;
+        }
+        .feedback-user {
+          width: 75%;
+          margin-top: 1rem;
+          .feedback-name {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .call {
+    height: auto;
+    padding: 2rem 0.5rem;
+    margin-bottom: 0;
+    .call-text {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      h2 {
+        width: 100%;
+        font-size: 2.1rem;
+      }
+      h3 {
+        font-size: 1.2rem;
+        width: 100%;
+      }
+    }
+    .call-buttons {
+      flex-direction: row;
+      width: 90%;
+      margin-top: 1rem;
+      button {
+        width: 45%;
+      }
+      .call-btn {
+        padding: 1rem 0.4rem;
+      }
+      .call-btn-outline {
+        padding: 0.9rem 0.5rem;
+      }
+    }
+  }
+
+  footer {
+    padding: 0.5rem;
+    height: auto;
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+      height: 80%;
+      .footer-logo {
+        padding: 0;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 5px;
+        .logo {
+          width: 12rem;
+          height: 2rem;
+        }
+        p {
+          width: 80%;
+          text-align: left;
+          font-size: 0.92rem;
+          margin-top: 5px;
+          margin-left: 20px;
+        }
+      }
+      .footer-content {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        .links-navigation {
+          width: 50%;
+          align-items: left;
+          text-align: left;
+          ul {
+            align-items: start;
+            li {
+              margin: 0.4rem 0;
+              p2 {
+                font-size: 1rem;
+                width: 100%;
+              }
+            }
+            .social {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-copyright {
+      padding-top: 1.5rem;
+      margin-bottom: 1rem;
+      p2 {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  footer {
+    .footer-container {
+      .footer-logo {
+        align-items: start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .logo {
+          margin-bottom: 10px;
+        }
+        p {
+          text-align: left;
+          width: 100%;
+          margin-top: 5px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Smartwatch */
+@media (max-width: 250px) {
+  header {
+    padding: 0.5rem 1rem !important;
+    height: auto !important;
+    
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 0.5rem;
+      .logo {
+        width: 60% !important;
+        height: auto !important;
+        margin-bottom: 0.5rem;
+      }
+
+      nav {
+        width: 100% !important;
+        height: auto !important;
+        
+        .nav-list {
+          width: 100% !important;
+          flex-direction: column;
+          gap: 0.3rem;
+          margin-bottom: 0.5rem;
+          
+          li {
+            a {
+              font-size: 0.7rem !important;
+              padding: 0.2rem;
+            }
+          }
+        }
+        
+        .header-button {
+          width: 100% !important;
+          
+          .header-btn {
+            font-size: 0.7rem !important;
+            padding: 0.4rem 0.6rem !important;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .home {
+    padding: 0.5rem 1rem !important;
+    
+    .home-content {
+      .home-text {
+        h1 {
+          font-size: 1.2rem !important;
+          line-height: 1.3;
+        }
+        
+        p {
+          font-size: 0.7rem !important;
+          margin-top: 0.5rem !important;
+        }
+      }
+      
+      .home-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem !important;
+        
+        .home-btn {
+          width: 100% !important;
+          padding: 0.5rem !important;
+          
+          .btn-text {
+            font-size: 0.7rem !important;
+          }
+          
+          .btn-img {
+            margin-right: 0.3rem !important;
+            
+            img {
+              width: 12px;
+              height: 12px;
+            }
+          }
+        }
+      }
+    }
+    
+    .home-image {
+      width: 60% !important;
+      margin-top: 1rem !important;
+    }
+  }
+
+  .dados {
+    padding: 0.5rem !important;
+    
+    .dados-container {
+      flex-direction: column;
+      gap: 0.5rem;
+      
+      .dados-content {
+        h2 {
+          font-size: 1.2rem !important;
+        }
+        
+        p2 {
+          font-size: 0.6rem !important;
+        }
+      }
+    }
+  }
+
+  .about {
+    padding: 1rem 0.5rem !important;
+    
+    .about-text {
+      h2 {
+        font-size: 1.2rem !important;
+      }
+      
+      h3 {
+        font-size: 0.8rem !important;
+      }
+    }
+    
+    .about-content {
+      .about-card {
+        padding: 1rem 0.8rem !important;
+        
+        .about-title {
+          flex-direction: column;
+          text-align: center;
+          
+          .about-icon img {
+            width: 20px;
+            height: 20px;
+          }
+          
+          h4 {
+            font-size: 0.9rem !important;
+            margin-top: 0.3rem;
+          }
+        }
+        
+        p2 {
+          font-size: 0.7rem !important;
+          text-align: center;
+        }
+        
+        .card-steps {
+          ol {
+            li {
+              span {
+                width: 25px !important;
+                height: 20px !important;
+                font-size: 0.6rem !important;
+                padding: 0.2rem !important;
+              }
+              
+              .step-text {
+                margin-left: 0.8rem !important;
+                
+                h5 {
+                  font-size: 0.7rem;
+                }
+                
+                p3 {
+                  font-size: 0.6rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .products {
+    padding: 1.5rem 0.5rem !important;
+    
+    .products-text {
+      h2 {
+        font-size: 1.2rem !important;
+      }
+      
+      h3 {
+        font-size: 0.8rem !important;
+      }
+    }
+    
+    .products-content {
+      width: 100% !important;
+      
+      .product-card {
+        width: 95% !important;
+        margin-bottom: 1.5rem !important;
+        
+        .product-info {
+          h4 {
+            font-size: 0.9rem !important;
+          }
+          
+          p2 {
+            font-size: 0.7rem !important;
+            width: 100% !important;
+          }
+          
+          .card-btn {
+            font-size: 0.7rem;
+            padding: 0.4rem 0.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    padding: 1.5rem 0.5rem !important;
+    
+    .feedback-text {
+      h2 {
+        font-size: 1.2rem !important;
+      }
+      
+      h3 {
+        font-size: 0.8rem !important;
+      }
+    }
+    
+    .feedback-content {
+      width: 100% !important;
+      
+      .feedback-card {
+        padding: 1rem;
+        
+        .stars img {
+          width: 80px;
+        }
+        
+        p {
+          font-size: 0.7rem !important;
+        }
+        
+        .feedback-user {
+          width: 100% !important;
+          justify-content: center;
+          
+          .feedback-name {
+            h4 {
+              font-size: 0.8rem;
+            }
+            
+            h5 {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .call {
+    padding: 1.5rem 0.5rem !important;
+    
+    .call-text {
+      h2 {
+        font-size: 1.2rem !important;
+      }
+      
+      h3 {
+        font-size: 0.8rem !important;
+      }
+    }
+    
+    .call-buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100% !important;
+      
+      button {
+        width: 100% !important;
+        font-size: 0.7rem;
+        padding: 0.6rem !important;
+      }
+    }
+  }
+
+  footer {
+    padding: 1rem 0.5rem !important;
+    
+    .footer-container {
+      .footer-logo {
+        flex-direction: column;
+        text-align: center;
+        
+        .logo img {
+          width: 100px;
+        }
+        
+        p {
+          font-size: 0.7rem !important;
+          margin-left: 0 !important;
+          text-align: center;
+          width: 100% !important;
+        }
+      }
+      
+      .footer-content {
+        flex-direction: column;
+        gap: 1rem;
+        
+        .links-navigation {
+          width: 100% !important;
+          text-align: center;
+          
+          h4, h5 {
+            font-size: 0.8rem;
+          }
+          
+          ul {
+            align-items: center !important;
+            
+            li {
+              a, p2 {
+                font-size: 0.7rem;
+              }
+            }
+            
+            .social {
+              width: 100% !important;
+              justify-content: center;
+              
+              a img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .footer-copyright {
+      p2 {
+        font-size: 0.6rem !important;
+        text-align: center;
+      }
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    line-height: 1.2 !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  p, p2, p3 {
+    line-height: 1.3 !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  button {
+    white-space: nowrap;
+  }
+}
