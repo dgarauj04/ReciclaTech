@@ -28,7 +28,7 @@ O processo é simples e direto, tanto para quem doa quanto para quem adquire.
 
 1.  Clone este repositório.
 ```
-
+https://github.com/dgarauj04/ReciclaTech.git
 ```
 
 2.  Abra o arquivo `index.html` em seu navegador de preferência.
